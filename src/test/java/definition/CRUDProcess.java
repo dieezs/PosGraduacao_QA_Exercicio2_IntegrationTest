@@ -2,8 +2,8 @@ package definition;
 
 import groovy.json.internal.LazyMap;
 
-public class CRUDUser {
-    private static String url = "http://agapito-server.herokuapp.com/users";
+public class CRUDProcess {
+    private static String url = "http://agapito-server.herokuapp.com/processos";
     private static LazyMap fieldsJson = new LazyMap();
     private static String lastId = "";
 
